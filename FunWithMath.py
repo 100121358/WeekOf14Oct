@@ -5,10 +5,10 @@ import math
 
 print(9801/(2206 * math.sqrt(2)))
 
-def archimeded(numSides):
+def archimedes(numSides):
     innerAngleB = 360.0 / numSides
     halfAngleA = innerAngleB / 2
-    oneHalfSides = math.sin(math.radians(halfAngleA))
+    oneHalfSideS = math.sin(math.radians(halfAngleA))
     sideS = oneHalfSideS * 2
     polygonCircumfrence = numSides * sideS
     pi = polygonCircumfrence / 2
@@ -16,4 +16,12 @@ def archimeded(numSides):
 
 
 
-print()
+print(archimedes(8))
+print(archimedes(16))
+
+for i in range(, 100, 8):
+    print(sides, archimedes)sides))
+
+# experiment with the loop above the alongside the actual value of Pi.  how many
+# sides does it take to make the two close?
+
