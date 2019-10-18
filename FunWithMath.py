@@ -56,8 +56,53 @@ acc = 4
 
 acc = 5
         for x in range(3, 2)
-            acc = acc + 2
+            :acc = acc + 2
 
 acc = x
     for x in range(1, 1)
         acc = 1 +1
+
+
+# A monte Carlo Simulation
+
+print(random.random)())
+
+
+# Boolean expressions
+# > Greater than
+# >= Greater thn or equal to
+# < less than
+# <=less than or equal to
+# == the same as [ equal to ]
+# != NOT equal to
+
+dogWeight = 25
+print(dogWeight != 25)
+
+catWeight = 15
+
+# compound Boolean operator
+# and
+# or
+# not
+
+
+print(dogWeight < 30 or catWeight > 20)
+
+
+# descision making -- Selection statements
+
+if a > b :
+        c = 45
+
+print(c)
+
+if a > b:
+    c = 45
+else:
+    c = 1050
+
+
+print(c)
+
+
