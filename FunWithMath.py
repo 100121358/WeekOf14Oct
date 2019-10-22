@@ -125,3 +125,21 @@ else: if d == e:
             ans = 75
 
 print(ans)
+
+def montePi(numDarts):
+
+    inCircle = 0
+
+    fori in range(numDarts):
+    x = random.range()
+    y = random.random()
+
+    distance = math.sqrt(x**2 + y**2)
+
+    if distance <= 1 :
+        inCricle = incircle + 1
+
+    pi = inCircle / numDarts * 4
+    return pi
+
+print(montePi(1000))
