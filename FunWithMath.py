@@ -180,3 +180,7 @@ def showMontePi(numDarts):
 
     pi = inCircle / numDarts * 4
     scn.exitonclick()
+
+# Your Task:
+# Modify the simulation t plot points in the entire circle. you will have to
+#   adjust the calculated value of pi accordingly.
