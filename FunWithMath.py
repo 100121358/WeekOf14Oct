@@ -37,13 +37,31 @@ acc= 0
         print(acc)
 
 # compute the sum of the first 100 even numbers
+def sumEven():
+    for i in range(2, 100):
+        acc = acc + 2
+
+
 # compute the sum of the fist 50 odd numbers
+
+def sumOdd():
+    for i in range(1, 49):
+        acc = acc + 1
 # compute the average of the first 100 odd numbers
+def oddSumm():
+    for i in range(1, 99):
+        acc = acc + 1
 # write a function that returns the average of the first N numbers, where
 #   N is a parameter
+def nNumbers():
+    for i in range
+        acc = acc - 100
     # write a function called a factorial that computes the product of the first N
 #   numbers where n is a parameter
+def NNumbers():
+    for i in range(1, 100)
 # each number in the Fibonacci sequence is the sum of the previous two numbers.
+
 #   The first two numbers in the sequence are 1 and 1. compute the 10th
 #   Fibonacci number.
 # write a function to compute the Nth Fibonacci number, where N is a parameter.
@@ -55,12 +73,12 @@ acc = 4
         acc = acc + 2
 
 acc = 5
-        for x in range(3, 2)
-            :acc = acc + 2
+        for x in range(3, 2):
+            acc = acc + 2
 
 acc = x
-    for x in range(1, 1)
-        acc = 1 +1
+    for x in range(1, 1):
+        acc = 1 + 1
 
 
 # A monte Carlo Simulation
@@ -177,10 +195,11 @@ def showMontePi(numDarts):
 
             t.dot
 
+showMontePi(1000)
 
     pi = inCircle / numDarts * 4
     scn.exitonclick()
 
 # Your Task:
-# Modify the simulation t plot points in the entire circle. you will have to
+# Modify the simulation to plot points in the entire circle. you will have to
 #   adjust the calculated value of pi accordingly.
