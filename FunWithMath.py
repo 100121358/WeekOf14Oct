@@ -61,11 +61,18 @@ def nNumbers():
 def NNumbers():
     for i in range(1, 100)
 # each number in the Fibonacci sequence is the sum of the previous two numbers.
-
+def fibNumbers():
+    for i in range(1, 95)
 #   The first two numbers in the sequence are 1 and 1. compute the 10th
 #   Fibonacci number.
+def computeNumbers():
+    for i in range
+        acc = acc + 34
 # write a function to compute the Nth Fibonacci number, where N is a parameter.
 #   you may assume that N will be greater than or equal to 3.
+def nthNum():
+    for i in range
+        acc = acc + 1
 
 
 acc = 4
